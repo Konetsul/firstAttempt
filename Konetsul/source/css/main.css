@@ -1,0 +1,212 @@
+
+*{ 
+	margin:0; 
+	padding:0; 
+	text-align:center; 
+} 
+
+header{ 
+	border-top: 7px solid #EED547;
+	height: 500px; 
+	width: 100%; 
+
+	background: 
+	url("../img/main_page/bg-header-statistic-dataset.png") 40% 70% no-repeat, 
+	url("../img/main_page/bg-header-statistic-rozpor.png") 60% 70% no-repeat,
+	url("../img/main_page/bg-header-statistic.png") 40% 86% no-repeat,	
+	url("../img/main_page/header-main.gif")no-repeat;
+
+
+	 
+	background-repeat: no-repeat; 
+
+	} 
+
+.nav {
+	margin-top: 60px;
+}
+ 
+
+.logo>img{ 
+	margin-top: 25px;
+	width: 230px; 
+	height: 80px; 
+	background-repeat: no-repeat; 
+} 
+
+
+.nav>ul{ 
+	list-style: none; 
+} 
+.nav>ul>li>a{ 
+	font-size: 14px;
+	text-decoration: none; 
+	color: black; 
+	text-align: center; 
+} 
+.nav>ul>li>a:hover{ 
+	border-bottom: 3px solid #EED547;
+	opacity: .6; 
+} 
+
+a{ 
+	text-decoration: none; 
+	color: black; 
+} 
+li>a{ 
+	font-family: Arial, serif; 
+	font-size: 11px; 
+	font-weight:bolder; 
+	text-transform: uppercase; 
+}
+/*---------------login----------------*/
+
+.login{ 
+	width: 90px; 
+	height: 50px; 
+	background: #f5e89f;
+	color: #000; 
+	margin-top: 60px;	
+} 
+.login img{ 
+		margin-top: -20px; 
+		margin-left: 57px; 
+		height: 50px; 
+		width: 40px; 
+
+} 
+
+/*---------------------------------------*/
+h2 {
+	text-align: center;
+	margin-top: 22px;
+	color: blue;
+}
+
+#search {
+	width: 80%;
+	min-width: 350px;
+	height: 49px;
+	margin-bottom: 1px;
+}
+
+#search1 {
+	
+}
+
+.block-header{
+	background: #e8e8e8;
+	text-align: center;
+	height: auto;
+	box-sizing: border-box;
+	font-size: 20px;
+	margin: 0px;
+}
+.block-header h2 {
+	margin: 0;
+	color: #85B6CE;
+}
+
+label {
+	background-color: #F1F1F1;
+	display: inline-block;
+    max-width: 100%;
+    margin: 0 1px 5px 5px;
+    padding: 0px 10px 0 10px;
+	font-weight: 300px;
+
+}
+/*--------------cirles-----------------*/
+
+.main{
+    text-align: center;
+    padding-top: 40px;
+}
+.flip-container{
+    margin: 25px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+    transform: rotateY(180deg);
+}
+
+.flip-container, .front, .back {
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+}
+
+.flip-container a {
+	color: black;
+	opacity: .8;
+	text-decoration: none;
+}
+.flipper {
+    transition: 0.6s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 60px;
+    opacity: 100;
+}
+
+.front {
+    border: solid 3px grey;
+
+}
+
+.back {
+    transform: rotateY(180deg);
+    background: #EFD648;
+    padding-top: 140px;
+}
+
+/*--------------userful-list------------*/
+.thumb {
+	text-align: center;
+}
+
+.president, .rada, .kmu, .e-data {
+	width: 320px;
+	height: 90px;
+
+}
+
+/*---------------footer-----------*/
+
+footer{
+	background-color: #4A4B4D;
+	height: 152px;
+}
+
+footer img {
+	margin: 10px;
+	float:left;
+	float: 10px;
+
+}
+
+footer ul {
+	display: table;
+	list-style-type: none;
+	
+}
+
+footer li a{
+	text-align: center;
+	color:white;
+
+}
+
+footer a:hover {
+	text-decoration: none;
+	color: yellow;
+}
